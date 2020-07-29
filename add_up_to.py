@@ -1,5 +1,7 @@
 import pdb
 
+# Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
+
 def add_up_to(the_l, k):
 	placeholder = [-1] * len(the_l)
 	for i in range(len(the_l)):
