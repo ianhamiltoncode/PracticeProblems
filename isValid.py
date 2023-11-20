@@ -41,6 +41,8 @@ def isValid(s):
 		result = False
 	return result
 
+#test
+
 print(isValid('()'))
 print(isValid('()[]{}'))
 print(isValid('(]'))
